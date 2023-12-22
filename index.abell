@@ -1,0 +1,26 @@
+{{
+    import navbar from './_components/navbar.abell';
+    import globalMeta from './_components/global.meta.abell';
+    import config from './config';
+}}
+<html>
+<head>
+    {{ globalMeta }}
+</head>
+<body>
+    {{ navbar }}
+    <main>
+        <div class="hero">
+            <h1>{{ config.defaultTitle }}</h1>
+        </div>
+    </main>
+    <footer>
+        <p>
+            {{ config.defaultTitle }} is an open source project hosted on <a href="github.com/plexlad/insidetrack">GitHub</a>
+        </p>
+        <p>
+            This website is open under the <a href="https://mit-license.org/">MIT License</a>.
+        </p>
+    </footer>
+</body>
+</html>

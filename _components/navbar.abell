@@ -1,0 +1,19 @@
+<nav>
+  <ul>
+    <li>
+      <a class="{{ props.activeRoute === '/' ? 'active' : '' }}" href="/">
+        Home
+      </a>
+    </li>
+    <li>
+      <a class="{{ props.activeRoute === '/notes' ? 'active' : ''}}" href="/notes">
+        Notes  
+      </a>
+    </li>
+    <li>
+      <a class="{{ props.activeRoute === '/about' ? 'active' : '' }}" href="/about">
+        About
+      </a>
+    </li>
+  </ul>
+</nav>

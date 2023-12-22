@@ -1,0 +1,13 @@
+{{
+    import navbar from './_components/navbar.abell';
+    import globalMeta from './_components/global.meta.abell'
+}}
+<html>
+<head>
+    {{ globalMeta }}
+</head>
+<body>
+    {{ navbar }}
+
+</body>
+</html>

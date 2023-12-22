@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.1rem solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+nav ul li {
+    padding-right: 1rem;
+}
+
+nav ul li:last-child {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main h1 {
+    width: 100%;
+
+}
+
+footer {
+    border-top: 0.1rem black solid;
+    padding: 1.5rem;
+    text-align: center;
+}
