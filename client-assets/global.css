@@ -6,7 +6,7 @@ body {
 nav {
     width: 100%;
     text-align: center;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.2rem solid black;
 }
 
 nav ul {
@@ -37,13 +37,49 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main h1 {
+div.home-hero {
     width: 100%;
+    height: 25rem;
+    position: relative;
+}
 
+div.home-hero h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+
+div.home-content > p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div.home-content div.three-column div {
+    float: left;
+    width: 33.33%;
+    column-gap: 7rem;
+}
+
+div.home-content div.three-column div p {
+    padding: 1.5rem;
+}
+
+div.home-content div.three-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.home-content div.three-column * {
+    text-align: center;
+    margin: 0;
 }
 
 footer {
-    border-top: 0.1rem black solid;
+    border-top: 0.2rem black solid;
     padding: 1.5rem;
     text-align: center;
 }

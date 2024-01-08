@@ -1,0 +1,14 @@
+{{
+    import config from "./config";
+}}
+
+<footer>
+    <p>
+        {{ config.defaultTitle }} is an open source project hosted on
+        {{ config.repositoryLink }}.
+    </p>
+    <p>
+        This website is open under the
+        <a href="https://mit-license.org/">MIT License</a>.
+    </p>
+</footer>

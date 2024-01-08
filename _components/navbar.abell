@@ -1,3 +1,7 @@
+{{
+  import config from './config';
+}}
+
 <nav>
   <ul>
     <li>
@@ -7,7 +11,7 @@
     </li>
     <li>
       <a class="{{ props.activeRoute === '/notes' ? 'active' : ''}}" href="/notes">
-        Notes  
+        Notes
       </a>
     </li>
     <li>

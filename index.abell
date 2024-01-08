@@ -1,6 +1,7 @@
 {{
     import navbar from './_components/navbar.abell';
     import globalMeta from './_components/global.meta.abell';
+    import footer from "./_components/footer.abell"
     import config from './config';
 }}
 <html>
@@ -10,17 +11,39 @@
 <body>
     {{ navbar }}
     <main>
-        <div class="hero">
-            <h1>{{ config.defaultTitle }}</h1>
+        <div class="home-hero">
+            <script>
+                function makeContainerWiggle
+            </script>
+            <h1>{{ config.animatedDefaultTitle }}</h1>
+        </div>
+        <div class="home-content">
+            <p>{{ config.defaultTitle }} is a note taking </p>
+            <div class="three-column">
+                <div>
+                    <h2>Always Updward</h2>
+                    <p>Life as a student can be super hard. This is why this 
+                    website is named after the phrase for ever going upward. 
+                    Whether you are looking for another study resource or
+                    trying to get ahead in classes, we've got your back.</p>
+                </div>
+                <div>
+                    <h2>Easy to Read</h2>
+                    <p>These notes are designed to be easy to read for
+                    studying! A lot of these will require the context of other
+                    notes or subjects.</p>
+                </div>
+                <div>
+                    <h2>Open Source</h2>
+                    <p>The code and text sources for thise website is open
+                    source! Check it out on {{ config.repositoryLink }} and feel 
+                    free to contribute! The source files are compiled and put
+                    out on a branch in GitHub Pages. Feel free to contribute
+                    your notes always!
+                </div>
+            </div>
         </div>
     </main>
-    <footer>
-        <p>
-            {{ config.defaultTitle }} is an open source project hosted on <a href="github.com/plexlad/insidetrack">GitHub</a>
-        </p>
-        <p>
-            This website is open under the <a href="https://mit-license.org/">MIT License</a>.
-        </p>
-    </footer>
+    {{ footer }}
 </body>
 </html>
