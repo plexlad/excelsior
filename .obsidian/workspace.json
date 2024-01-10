@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4178ac0157556d8d",
+        "id": "2923fda615b3a622",
         "type": "tabs",
         "children": [
           {
-            "id": "74be2c8a33afea7b",
+            "id": "4ad2dc5655d2b8e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test1 - Website Generation, LaTeX, and Mathjax.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -145,50 +141,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "c0e320df2399b0c4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d918a537a0a39508",
-        "type": "window",
-        "children": [
-          {
-            "id": "a6de75a25f79cb71",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ce2144877d97740a",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
-                "id": "49a77202019dfb38",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 20,
-        "y": 54,
-        "width": 929,
-        "height": 1006,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "49a77202019dfb38",
+  "active": "4ad2dc5655d2b8e7",
   "lastOpenFiles": [
+    "2023/Math/1-9-24 Math 1050.md",
+    "2023/Math",
+    "2023/Programming/1-8-24 OOP.md",
+    "2023/Programming/1-8-24 Digital Circuits.md",
+    "One Stop Notes.md",
+    "2023/Programming",
     "test1 - Website Generation, LaTeX, and Mathjax.md",
     "templates/TikZ Mathematical Function Template.md",
     "2023/tests",
