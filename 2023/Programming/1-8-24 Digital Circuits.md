@@ -1,4 +1,4 @@
-Day 1:
+## Day 1:
 1. Convert from binary to decimal
 2. Convert from decimal to binary
 

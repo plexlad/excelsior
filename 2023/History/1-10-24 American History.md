@@ -1,0 +1,2 @@
+ - Meta cognition - The ability to think about thinking. Making sure that you can be adaptable and improve.
+ - Perseverence - Meta cognition can help you achieve this, but add the end of the day you have to be able to do hard things.
