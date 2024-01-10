@@ -12,13 +12,15 @@ In a binary number, each character is known as a bit. The right most bit is know
 # Binary to decimal
 1011 from binary to decimal.
 
-$2^3+2^2+2^1+2^0$ =
-8,  4,  2,  1
-x   x   x   x
-1   0   1   1
-8 + 0 + 2 + 1 = 11
 
-> Left shift (adding a 0 to the right of the bits in binary)
+| $2^3$ | $2^2$ | $2^1$ | $2^0$ |  |
+| ---- | ---- | ---- | ---- | ---- |
+| 8 | 4 | 2 | 1 |  |
+| 1 | 0 | 1 | 1 |  |
+| 8 | 0 | 2 | 1 | = 11 |
+
+
+> Left shift (adding a 0 to the right of the bits in binary).
 > This doubles the number!
 
 # Decimal to Binary
